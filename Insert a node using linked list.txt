@@ -1,0 +1,35 @@
+Write a function to insert a node by queue using linked list
+
+Sol:: 
+struct node
+{
+int data;
+struct node*next;
+};
+struct node*front=NULL,*rear=NULL;
+void enqueue()
+{
+struct node*newnode;
+int elements;
+printf("\n enter elements to be input");
+scanf("%d",&elements);
+newnode=(struct node*)malloc (size of(structnode));
+Newnode->data=elements;
+Newnode->next=NULL;
+if(rear==NUll\\ front== NULL)
+{
+rear=Newnode;
+front=Newnode;
+}
+else
+{
+rear->next=newnode;
+rear->newnode;
+}
+}
+
+
+
+
+
+
